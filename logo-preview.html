@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Luminos Peptides — Logo Preview</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Inter',sans-serif; background:#f8f9fb; padding:40px; }
+  h2 { font-size:12px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#9ca3af; margin-bottom:20px; }
+  .block { background:white; border:1px solid #e4e7ec; border-radius:16px; padding:48px; margin-bottom:24px; display:flex; align-items:center; justify-content:center; }
+  .block.dark { background:#111827; }
+  .block.label { background:white; flex-direction:column; gap:32px; }
+  .label-vial { background:#f8f9fb; border:1px solid #e4e7ec; border-radius:10px; padding:20px 28px; text-align:center; width:220px; }
+  .label-vial img { width:60px; margin-bottom:10px; }
+  .label-compound { font-size:18px; font-weight:700; color:#111827; letter-spacing:-0.02em; }
+  .label-sub { font-size:11px; color:#6b7280; letter-spacing:0.05em; margin-top:3px; }
+  .label-badge { display:inline-block; margin-top:10px; font-size:10px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:#2563eb; background:#eff4ff; padding:3px 10px; border-radius:100px; }
+</style>
+</head>
+<body>
+
+<h2>Light Background</h2>
+<div class="block">
+  <img src="logo.svg" style="max-width:400px; width:100%;" />
+</div>
+
+<h2>Dark Background</h2>
+<div class="block dark">
+  <img src="logo-dark.svg" style="max-width:400px; width:100%;" />
+</div>
+
+<h2>Mark Only (for favicon / small use)</h2>
+<div class="block" style="gap:32px">
+  <img src="logo-mark.svg" style="width:60px;" />
+  <img src="logo-mark.svg" style="width:40px;" />
+  <img src="logo-mark.svg" style="width:24px;" />
+</div>
+
+<h2>Product Label (vial mockup)</h2>
+<div class="block label">
+  <div style="display:flex; gap:20px; flex-wrap:wrap; justify-content:center;">
+    <div class="label-vial">
+      <img src="logo-mark.svg" />
+      <div class="label-compound">BPC-157</div>
+      <div class="label-sub">5mg · Lyophilized Powder</div>
+      <div class="label-badge">Research Use Only</div>
+    </div>
+    <div class="label-vial">
+      <img src="logo-mark.svg" />
+      <div class="label-compound">Semaglutide</div>
+      <div class="label-sub">2mg · Lyophilized Powder</div>
+      <div class="label-badge">Research Use Only</div>
+    </div>
+    <div class="label-vial">
+      <img src="logo-mark.svg" />
+      <div class="label-compound">TB-500</div>
+      <div class="label-sub">5mg · Lyophilized Powder</div>
+      <div class="label-badge">Research Use Only</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
