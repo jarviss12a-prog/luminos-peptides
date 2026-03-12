@@ -819,76 +819,121 @@
         <!-- BPC-157 -->
         <div class="product-card">
           <div class="product-img">
-            <svg viewBox="0 0 140 225" xmlns="http://www.w3.org/2000/svg" style="width:auto;height:190px;display:block;margin:0 auto">
+            <svg viewBox="0 0 160 265" xmlns="http://www.w3.org/2000/svg" style="height:210px;width:auto;display:block;margin:0 auto">
   <defs>
-    <linearGradient id="vgbpc" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b8bcc4"/>
-      <stop offset="12%" stop-color="#dde1e7"/>
-      <stop offset="45%" stop-color="#f0f2f5"/>
-      <stop offset="88%" stop-color="#d4d8e0"/>
-      <stop offset="100%" stop-color="#9fa5b0"/>
+    <linearGradient id="gmbpc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9098a4" stop-opacity="0.95"/>
+      <stop offset="7%" stop-color="#c8d0d8" stop-opacity="0.8"/>
+      <stop offset="16%" stop-color="#eaecef" stop-opacity="0.55"/>
+      <stop offset="28%" stop-color="#f6f7f8" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="68%" stop-color="#e4e7eb" stop-opacity="0.3"/>
+      <stop offset="84%" stop-color="#c8cdd5" stop-opacity="0.65"/>
+      <stop offset="94%" stop-color="#b0b8c4" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#8890a0" stop-opacity="1"/>
     </linearGradient>
-    <linearGradient id="nkbpc" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b0b5be"/>
-      <stop offset="30%" stop-color="#d8dce4"/>
-      <stop offset="70%" stop-color="#e8ecf2"/>
-      <stop offset="100%" stop-color="#a0a5ae"/>
+    <linearGradient id="ghbpc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="4%" stop-color="white" stop-opacity="0.75"/>
+      <stop offset="11%" stop-color="white" stop-opacity="0.35"/>
+      <stop offset="22%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="crbpc" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8a9099"/>
-      <stop offset="15%" stop-color="#c8cdd6"/>
-      <stop offset="42%" stop-color="#eaecf0"/>
-      <stop offset="78%" stop-color="#c0c5ce"/>
-      <stop offset="100%" stop-color="#787e87"/>
+    <linearGradient id="scbpc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#606870"/>
+      <stop offset="8%" stop-color="#9ca4ac"/>
+      <stop offset="22%" stop-color="#cdd4db"/>
+      <stop offset="38%" stop-color="#eceff2"/>
+      <stop offset="52%" stop-color="#e4e8ec"/>
+      <stop offset="68%" stop-color="#c4cad2"/>
+      <stop offset="84%" stop-color="#96a0aa"/>
+      <stop offset="100%" stop-color="#606870"/>
     </linearGradient>
-    <linearGradient id="cbbpc" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#1d4ed8"/>
-    </linearGradient>
+    <radialGradient id="ctbpc" cx="35%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#f0f3f6"/>
+      <stop offset="35%" stop-color="#d0d8e0"/>
+      <stop offset="100%" stop-color="#80909c"/>
+    </radialGradient>
+    <radialGradient id="fsbpc" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.18)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+    <filter id="blurbpc">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
   </defs>
-  <!-- Shadow -->
-  <ellipse cx="70" cy="217" rx="32" ry="5" fill="rgba(0,0,0,0.1)"/>
-  <!-- Glass body -->
-  <rect x="30" y="68" width="80" height="142" rx="10" fill="url(#vgbpc)"/>
-  <!-- Shoulders -->
-  <path d="M42,52 L30,70 L110,70 L98,52 Z" fill="url(#nkbpc)"/>
-  <!-- Neck -->
-  <rect x="42" y="28" width="56" height="28" rx="4" fill="url(#nkbpc)"/>
-  <!-- Crimp band -->
-  <rect x="34" y="20" width="72" height="22" rx="4" fill="url(#crbpc)"/>
-  <rect x="34" y="27" width="72" height="1.5" fill="rgba(0,0,0,0.1)"/>
-  <rect x="34" y="34" width="72" height="1.5" fill="rgba(255,255,255,0.25)"/>
-  <!-- Blue stopper -->
-  <ellipse cx="70" cy="20" rx="33" ry="8" fill="#2563eb"/>
-  <rect x="37" y="8" width="66" height="18" rx="6" fill="url(#cbbpc)"/>
-  <ellipse cx="70" cy="8" rx="33" ry="8" fill="#2563eb"/>
-  <ellipse cx="70" cy="7" rx="24" ry="5" fill="#60a5fa" opacity="0.55"/>
-  <!-- Label -->
-  <rect x="32" y="78" width="76" height="114" rx="2" fill="white" stroke="#dde1e7" stroke-width="0.75"/>
-  <!-- Label header -->
-  <rect x="32" y="78" width="76" height="13" rx="2" fill="#2563eb"/>
-  <text x="70" y="88.5" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" font-weight="700" fill="white" letter-spacing="0.6">LUMINOS PEPTIDES</text>
+
+  <!-- Floor shadow -->
+  <ellipse cx="80" cy="257" rx="42" ry="7" fill="url(#fsbpc)"/>
+
+  <!-- Glass body back (depth layer) -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="#dde0e5" opacity="0.45"/>
+
+  <!-- Glass body main -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="url(#gmbpc)"/>
+
+  <!-- Navy label wrap - lower 65% of body -->
+  <rect x="36" y="118" width="88" height="122" rx="2" fill="#0b1933"/>
+  <!-- Label left shadow (cylinder wrap effect) -->
+  <rect x="36" y="118" width="9" height="122" fill="rgba(0,0,0,0.3)"/>
+  <!-- Label right shadow -->
+  <rect x="115" y="118" width="9" height="122" fill="rgba(0,0,0,0.22)"/>
+
+  <!-- Label: brand name -->
+  <text x="80" y="132" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" fill="rgba(255,255,255,0.5)" letter-spacing="1.5" font-weight="600">LUMINOS PEPTIDES</text>
+  <line x1="44" y1="136" x2="116" y2="136" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
   <!-- Product name -->
-  
-  <text x="70" y="108" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="14" font-weight="800" fill="#111827">BPC-157</text>
-  <!-- Divider 1 -->
-  <line x1="35" y1="116" x2="105" y2="116" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- Dose -->
-  <text x="70" y="127" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" font-weight="600" fill="#3d4452">CONTAINS: 5 MG</text>
-  <!-- Type -->
-  <text x="70" y="138" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">LYOPHILIZED POWDER</text>
-  <!-- Purity -->
-  <text x="70" y="149" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">PURITY &gt; 99%</text>
-  <!-- Divider 2 -->
-  <line x1="35" y1="156" x2="105" y2="156" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- RUO -->
-  <text x="70" y="167" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" font-weight="700" fill="#2563eb" letter-spacing="0.3">FOR RESEARCH ONLY</text>
-  <!-- Left glass highlight -->
-  <rect x="33" y="73" width="9" height="133" rx="4" fill="rgba(255,255,255,0.38)"/>
-  <!-- Right shadow -->
-  <rect x="101" y="73" width="7" height="133" rx="3" fill="rgba(0,0,0,0.07)"/>
-  <!-- Bottom curve -->
-  <ellipse cx="70" cy="204" rx="40" ry="6" fill="url(#vgbpc)" opacity="0.5"/>
+  <text x="80" y="161" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="17" fill="white" font-weight="800">BPC-157</text>
+
+  <!-- Dose line -->
+  <text x="80" y="175" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.65)">5 MG LYOPHILIZED POWDER</text>
+
+  <!-- Divider -->
+  <line x1="52" y1="181" x2="108" y2="181" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
+  <!-- Purity + COA row -->
+  <text x="62" y="194" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.5)">PURITY</text>
+  <text x="62" y="206" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="11" fill="white" font-weight="800">≥99%</text>
+  <rect x="92" y="183" width="26" height="26" rx="4" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+  <text x="105" y="195" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" fill="rgba(255,255,255,0.55)">COA</text>
+  <text x="105" y="206" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="8" fill="white" font-weight="700">INCL.</text>
+
+  <!-- Research only -->
+  <text x="80" y="223" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5" fill="rgba(255,255,255,0.35)" letter-spacing="0.5">FOR RESEARCH ONLY</text>
+
+  <!-- Vial shoulders -->
+  <path d="M47,57 L35,72 L125,72 L113,57 Z" fill="url(#gmbpc)"/>
+  <!-- Neck -->
+  <rect x="47" y="26" width="66" height="34" rx="5" fill="url(#gmbpc)"/>
+
+  <!-- Silver crimp cap -->
+  <rect x="40" y="17" width="80" height="24" rx="4" fill="url(#scbpc)"/>
+  <!-- Crimp grooves -->
+  <rect x="40" y="22" width="80" height="1.2" fill="rgba(0,0,0,0.14)"/>
+  <rect x="40" y="24" width="80" height="0.8" fill="rgba(255,255,255,0.28)"/>
+  <rect x="40" y="27" width="80" height="1.2" fill="rgba(0,0,0,0.12)"/>
+  <rect x="40" y="30" width="80" height="0.8" fill="rgba(255,255,255,0.22)"/>
+  <rect x="40" y="33" width="80" height="1.2" fill="rgba(0,0,0,0.1)"/>
+  <!-- Cap top -->
+  <ellipse cx="80" cy="17" rx="40" ry="10" fill="url(#ctbpc)"/>
+  <!-- Cap specular -->
+  <ellipse cx="66" cy="13" rx="18" ry="5" fill="white" opacity="0.42"/>
+  <ellipse cx="60" cy="12" rx="8" ry="2.5" fill="white" opacity="0.55"/>
+
+  <!-- PRIMARY glass reflection (left edge bright streak — key to realism) -->
+  <rect x="36" y="60" width="11" height="184" rx="5" fill="url(#ghbpc)"/>
+  <!-- Secondary inner reflection -->
+  <rect x="53" y="72" width="4" height="170" rx="2" fill="white" opacity="0.07"/>
+  <!-- Right edge darkening -->
+  <rect x="114" y="70" width="9" height="180" rx="4" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Neck/shoulder left highlight -->
+  <path d="M48,59 L36,73 L50,73 L53,59 Z" fill="white" opacity="0.32"/>
+  <rect x="48" y="27" width="9" height="32" rx="4" fill="white" opacity="0.28"/>
+
+  <!-- Glass bottom curve reflection -->
+  <ellipse cx="80" cy="242" rx="44" ry="5" fill="white" opacity="0.18"/>
 </svg>
             <div class="product-badge">Best Seller</div>
           </div>
@@ -906,76 +951,121 @@
         <!-- TB-500 -->
         <div class="product-card">
           <div class="product-img">
-            <svg viewBox="0 0 140 225" xmlns="http://www.w3.org/2000/svg" style="width:auto;height:190px;display:block;margin:0 auto">
+            <svg viewBox="0 0 160 265" xmlns="http://www.w3.org/2000/svg" style="height:210px;width:auto;display:block;margin:0 auto">
   <defs>
-    <linearGradient id="vgtb5" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b8bcc4"/>
-      <stop offset="12%" stop-color="#dde1e7"/>
-      <stop offset="45%" stop-color="#f0f2f5"/>
-      <stop offset="88%" stop-color="#d4d8e0"/>
-      <stop offset="100%" stop-color="#9fa5b0"/>
+    <linearGradient id="gmtb5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9098a4" stop-opacity="0.95"/>
+      <stop offset="7%" stop-color="#c8d0d8" stop-opacity="0.8"/>
+      <stop offset="16%" stop-color="#eaecef" stop-opacity="0.55"/>
+      <stop offset="28%" stop-color="#f6f7f8" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="68%" stop-color="#e4e7eb" stop-opacity="0.3"/>
+      <stop offset="84%" stop-color="#c8cdd5" stop-opacity="0.65"/>
+      <stop offset="94%" stop-color="#b0b8c4" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#8890a0" stop-opacity="1"/>
     </linearGradient>
-    <linearGradient id="nktb5" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b0b5be"/>
-      <stop offset="30%" stop-color="#d8dce4"/>
-      <stop offset="70%" stop-color="#e8ecf2"/>
-      <stop offset="100%" stop-color="#a0a5ae"/>
+    <linearGradient id="ghtb5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="4%" stop-color="white" stop-opacity="0.75"/>
+      <stop offset="11%" stop-color="white" stop-opacity="0.35"/>
+      <stop offset="22%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="crtb5" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8a9099"/>
-      <stop offset="15%" stop-color="#c8cdd6"/>
-      <stop offset="42%" stop-color="#eaecf0"/>
-      <stop offset="78%" stop-color="#c0c5ce"/>
-      <stop offset="100%" stop-color="#787e87"/>
+    <linearGradient id="sctb5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#606870"/>
+      <stop offset="8%" stop-color="#9ca4ac"/>
+      <stop offset="22%" stop-color="#cdd4db"/>
+      <stop offset="38%" stop-color="#eceff2"/>
+      <stop offset="52%" stop-color="#e4e8ec"/>
+      <stop offset="68%" stop-color="#c4cad2"/>
+      <stop offset="84%" stop-color="#96a0aa"/>
+      <stop offset="100%" stop-color="#606870"/>
     </linearGradient>
-    <linearGradient id="cbtb5" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#1d4ed8"/>
-    </linearGradient>
+    <radialGradient id="cttb5" cx="35%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#f0f3f6"/>
+      <stop offset="35%" stop-color="#d0d8e0"/>
+      <stop offset="100%" stop-color="#80909c"/>
+    </radialGradient>
+    <radialGradient id="fstb5" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.18)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+    <filter id="blurtb5">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
   </defs>
-  <!-- Shadow -->
-  <ellipse cx="70" cy="217" rx="32" ry="5" fill="rgba(0,0,0,0.1)"/>
-  <!-- Glass body -->
-  <rect x="30" y="68" width="80" height="142" rx="10" fill="url(#vgtb5)"/>
-  <!-- Shoulders -->
-  <path d="M42,52 L30,70 L110,70 L98,52 Z" fill="url(#nktb5)"/>
-  <!-- Neck -->
-  <rect x="42" y="28" width="56" height="28" rx="4" fill="url(#nktb5)"/>
-  <!-- Crimp band -->
-  <rect x="34" y="20" width="72" height="22" rx="4" fill="url(#crtb5)"/>
-  <rect x="34" y="27" width="72" height="1.5" fill="rgba(0,0,0,0.1)"/>
-  <rect x="34" y="34" width="72" height="1.5" fill="rgba(255,255,255,0.25)"/>
-  <!-- Blue stopper -->
-  <ellipse cx="70" cy="20" rx="33" ry="8" fill="#2563eb"/>
-  <rect x="37" y="8" width="66" height="18" rx="6" fill="url(#cbtb5)"/>
-  <ellipse cx="70" cy="8" rx="33" ry="8" fill="#2563eb"/>
-  <ellipse cx="70" cy="7" rx="24" ry="5" fill="#60a5fa" opacity="0.55"/>
-  <!-- Label -->
-  <rect x="32" y="78" width="76" height="114" rx="2" fill="white" stroke="#dde1e7" stroke-width="0.75"/>
-  <!-- Label header -->
-  <rect x="32" y="78" width="76" height="13" rx="2" fill="#2563eb"/>
-  <text x="70" y="88.5" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" font-weight="700" fill="white" letter-spacing="0.6">LUMINOS PEPTIDES</text>
+
+  <!-- Floor shadow -->
+  <ellipse cx="80" cy="257" rx="42" ry="7" fill="url(#fstb5)"/>
+
+  <!-- Glass body back (depth layer) -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="#dde0e5" opacity="0.45"/>
+
+  <!-- Glass body main -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="url(#gmtb5)"/>
+
+  <!-- Navy label wrap - lower 65% of body -->
+  <rect x="36" y="118" width="88" height="122" rx="2" fill="#0b1933"/>
+  <!-- Label left shadow (cylinder wrap effect) -->
+  <rect x="36" y="118" width="9" height="122" fill="rgba(0,0,0,0.3)"/>
+  <!-- Label right shadow -->
+  <rect x="115" y="118" width="9" height="122" fill="rgba(0,0,0,0.22)"/>
+
+  <!-- Label: brand name -->
+  <text x="80" y="132" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" fill="rgba(255,255,255,0.5)" letter-spacing="1.5" font-weight="600">LUMINOS PEPTIDES</text>
+  <line x1="44" y1="136" x2="116" y2="136" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
   <!-- Product name -->
-  
-  <text x="70" y="108" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="14" font-weight="800" fill="#111827">TB-500</text>
-  <!-- Divider 1 -->
-  <line x1="35" y1="116" x2="105" y2="116" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- Dose -->
-  <text x="70" y="127" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" font-weight="600" fill="#3d4452">CONTAINS: 5 MG</text>
-  <!-- Type -->
-  <text x="70" y="138" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">LYOPHILIZED POWDER</text>
-  <!-- Purity -->
-  <text x="70" y="149" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">PURITY &gt; 99%</text>
-  <!-- Divider 2 -->
-  <line x1="35" y1="156" x2="105" y2="156" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- RUO -->
-  <text x="70" y="167" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" font-weight="700" fill="#2563eb" letter-spacing="0.3">FOR RESEARCH ONLY</text>
-  <!-- Left glass highlight -->
-  <rect x="33" y="73" width="9" height="133" rx="4" fill="rgba(255,255,255,0.38)"/>
-  <!-- Right shadow -->
-  <rect x="101" y="73" width="7" height="133" rx="3" fill="rgba(0,0,0,0.07)"/>
-  <!-- Bottom curve -->
-  <ellipse cx="70" cy="204" rx="40" ry="6" fill="url(#vgtb5)" opacity="0.5"/>
+  <text x="80" y="161" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="17" fill="white" font-weight="800">TB-500</text>
+
+  <!-- Dose line -->
+  <text x="80" y="175" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.65)">5 MG LYOPHILIZED POWDER</text>
+
+  <!-- Divider -->
+  <line x1="52" y1="181" x2="108" y2="181" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
+  <!-- Purity + COA row -->
+  <text x="62" y="194" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.5)">PURITY</text>
+  <text x="62" y="206" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="11" fill="white" font-weight="800">≥99%</text>
+  <rect x="92" y="183" width="26" height="26" rx="4" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+  <text x="105" y="195" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" fill="rgba(255,255,255,0.55)">COA</text>
+  <text x="105" y="206" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="8" fill="white" font-weight="700">INCL.</text>
+
+  <!-- Research only -->
+  <text x="80" y="223" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5" fill="rgba(255,255,255,0.35)" letter-spacing="0.5">FOR RESEARCH ONLY</text>
+
+  <!-- Vial shoulders -->
+  <path d="M47,57 L35,72 L125,72 L113,57 Z" fill="url(#gmtb5)"/>
+  <!-- Neck -->
+  <rect x="47" y="26" width="66" height="34" rx="5" fill="url(#gmtb5)"/>
+
+  <!-- Silver crimp cap -->
+  <rect x="40" y="17" width="80" height="24" rx="4" fill="url(#sctb5)"/>
+  <!-- Crimp grooves -->
+  <rect x="40" y="22" width="80" height="1.2" fill="rgba(0,0,0,0.14)"/>
+  <rect x="40" y="24" width="80" height="0.8" fill="rgba(255,255,255,0.28)"/>
+  <rect x="40" y="27" width="80" height="1.2" fill="rgba(0,0,0,0.12)"/>
+  <rect x="40" y="30" width="80" height="0.8" fill="rgba(255,255,255,0.22)"/>
+  <rect x="40" y="33" width="80" height="1.2" fill="rgba(0,0,0,0.1)"/>
+  <!-- Cap top -->
+  <ellipse cx="80" cy="17" rx="40" ry="10" fill="url(#cttb5)"/>
+  <!-- Cap specular -->
+  <ellipse cx="66" cy="13" rx="18" ry="5" fill="white" opacity="0.42"/>
+  <ellipse cx="60" cy="12" rx="8" ry="2.5" fill="white" opacity="0.55"/>
+
+  <!-- PRIMARY glass reflection (left edge bright streak — key to realism) -->
+  <rect x="36" y="60" width="11" height="184" rx="5" fill="url(#ghtb5)"/>
+  <!-- Secondary inner reflection -->
+  <rect x="53" y="72" width="4" height="170" rx="2" fill="white" opacity="0.07"/>
+  <!-- Right edge darkening -->
+  <rect x="114" y="70" width="9" height="180" rx="4" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Neck/shoulder left highlight -->
+  <path d="M48,59 L36,73 L50,73 L53,59 Z" fill="white" opacity="0.32"/>
+  <rect x="48" y="27" width="9" height="32" rx="4" fill="white" opacity="0.28"/>
+
+  <!-- Glass bottom curve reflection -->
+  <ellipse cx="80" cy="242" rx="44" ry="5" fill="white" opacity="0.18"/>
 </svg>
             <div class="product-badge">Best Seller</div>
           </div>
@@ -993,76 +1083,121 @@
         <!-- Semaglutide -->
         <div class="product-card">
           <div class="product-img">
-            <svg viewBox="0 0 140 225" xmlns="http://www.w3.org/2000/svg" style="width:auto;height:190px;display:block;margin:0 auto">
+            <svg viewBox="0 0 160 265" xmlns="http://www.w3.org/2000/svg" style="height:210px;width:auto;display:block;margin:0 auto">
   <defs>
-    <linearGradient id="vgsem" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b8bcc4"/>
-      <stop offset="12%" stop-color="#dde1e7"/>
-      <stop offset="45%" stop-color="#f0f2f5"/>
-      <stop offset="88%" stop-color="#d4d8e0"/>
-      <stop offset="100%" stop-color="#9fa5b0"/>
+    <linearGradient id="gmsem" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9098a4" stop-opacity="0.95"/>
+      <stop offset="7%" stop-color="#c8d0d8" stop-opacity="0.8"/>
+      <stop offset="16%" stop-color="#eaecef" stop-opacity="0.55"/>
+      <stop offset="28%" stop-color="#f6f7f8" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="68%" stop-color="#e4e7eb" stop-opacity="0.3"/>
+      <stop offset="84%" stop-color="#c8cdd5" stop-opacity="0.65"/>
+      <stop offset="94%" stop-color="#b0b8c4" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#8890a0" stop-opacity="1"/>
     </linearGradient>
-    <linearGradient id="nksem" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b0b5be"/>
-      <stop offset="30%" stop-color="#d8dce4"/>
-      <stop offset="70%" stop-color="#e8ecf2"/>
-      <stop offset="100%" stop-color="#a0a5ae"/>
+    <linearGradient id="ghsem" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="4%" stop-color="white" stop-opacity="0.75"/>
+      <stop offset="11%" stop-color="white" stop-opacity="0.35"/>
+      <stop offset="22%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="crsem" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8a9099"/>
-      <stop offset="15%" stop-color="#c8cdd6"/>
-      <stop offset="42%" stop-color="#eaecf0"/>
-      <stop offset="78%" stop-color="#c0c5ce"/>
-      <stop offset="100%" stop-color="#787e87"/>
+    <linearGradient id="scsem" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#606870"/>
+      <stop offset="8%" stop-color="#9ca4ac"/>
+      <stop offset="22%" stop-color="#cdd4db"/>
+      <stop offset="38%" stop-color="#eceff2"/>
+      <stop offset="52%" stop-color="#e4e8ec"/>
+      <stop offset="68%" stop-color="#c4cad2"/>
+      <stop offset="84%" stop-color="#96a0aa"/>
+      <stop offset="100%" stop-color="#606870"/>
     </linearGradient>
-    <linearGradient id="cbsem" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#1d4ed8"/>
-    </linearGradient>
+    <radialGradient id="ctsem" cx="35%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#f0f3f6"/>
+      <stop offset="35%" stop-color="#d0d8e0"/>
+      <stop offset="100%" stop-color="#80909c"/>
+    </radialGradient>
+    <radialGradient id="fssem" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.18)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+    <filter id="blursem">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
   </defs>
-  <!-- Shadow -->
-  <ellipse cx="70" cy="217" rx="32" ry="5" fill="rgba(0,0,0,0.1)"/>
-  <!-- Glass body -->
-  <rect x="30" y="68" width="80" height="142" rx="10" fill="url(#vgsem)"/>
-  <!-- Shoulders -->
-  <path d="M42,52 L30,70 L110,70 L98,52 Z" fill="url(#nksem)"/>
-  <!-- Neck -->
-  <rect x="42" y="28" width="56" height="28" rx="4" fill="url(#nksem)"/>
-  <!-- Crimp band -->
-  <rect x="34" y="20" width="72" height="22" rx="4" fill="url(#crsem)"/>
-  <rect x="34" y="27" width="72" height="1.5" fill="rgba(0,0,0,0.1)"/>
-  <rect x="34" y="34" width="72" height="1.5" fill="rgba(255,255,255,0.25)"/>
-  <!-- Blue stopper -->
-  <ellipse cx="70" cy="20" rx="33" ry="8" fill="#2563eb"/>
-  <rect x="37" y="8" width="66" height="18" rx="6" fill="url(#cbsem)"/>
-  <ellipse cx="70" cy="8" rx="33" ry="8" fill="#2563eb"/>
-  <ellipse cx="70" cy="7" rx="24" ry="5" fill="#60a5fa" opacity="0.55"/>
-  <!-- Label -->
-  <rect x="32" y="78" width="76" height="114" rx="2" fill="white" stroke="#dde1e7" stroke-width="0.75"/>
-  <!-- Label header -->
-  <rect x="32" y="78" width="76" height="13" rx="2" fill="#2563eb"/>
-  <text x="70" y="88.5" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" font-weight="700" fill="white" letter-spacing="0.6">LUMINOS PEPTIDES</text>
+
+  <!-- Floor shadow -->
+  <ellipse cx="80" cy="257" rx="42" ry="7" fill="url(#fssem)"/>
+
+  <!-- Glass body back (depth layer) -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="#dde0e5" opacity="0.45"/>
+
+  <!-- Glass body main -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="url(#gmsem)"/>
+
+  <!-- Navy label wrap - lower 65% of body -->
+  <rect x="36" y="118" width="88" height="122" rx="2" fill="#0b1933"/>
+  <!-- Label left shadow (cylinder wrap effect) -->
+  <rect x="36" y="118" width="9" height="122" fill="rgba(0,0,0,0.3)"/>
+  <!-- Label right shadow -->
+  <rect x="115" y="118" width="9" height="122" fill="rgba(0,0,0,0.22)"/>
+
+  <!-- Label: brand name -->
+  <text x="80" y="132" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" fill="rgba(255,255,255,0.5)" letter-spacing="1.5" font-weight="600">LUMINOS PEPTIDES</text>
+  <line x1="44" y1="136" x2="116" y2="136" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
   <!-- Product name -->
-  
-  <text x="70" y="108" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="9" font-weight="800" fill="#111827">Semaglutide</text>
-  <!-- Divider 1 -->
-  <line x1="35" y1="116" x2="105" y2="116" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- Dose -->
-  <text x="70" y="127" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" font-weight="600" fill="#3d4452">CONTAINS: 2 MG</text>
-  <!-- Type -->
-  <text x="70" y="138" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">LYOPHILIZED POWDER</text>
-  <!-- Purity -->
-  <text x="70" y="149" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">PURITY &gt; 99%</text>
-  <!-- Divider 2 -->
-  <line x1="35" y1="156" x2="105" y2="156" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- RUO -->
-  <text x="70" y="167" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" font-weight="700" fill="#2563eb" letter-spacing="0.3">FOR RESEARCH ONLY</text>
-  <!-- Left glass highlight -->
-  <rect x="33" y="73" width="9" height="133" rx="4" fill="rgba(255,255,255,0.38)"/>
-  <!-- Right shadow -->
-  <rect x="101" y="73" width="7" height="133" rx="3" fill="rgba(0,0,0,0.07)"/>
-  <!-- Bottom curve -->
-  <ellipse cx="70" cy="204" rx="40" ry="6" fill="url(#vgsem)" opacity="0.5"/>
+  <text x="80" y="159" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="13" fill="white" font-weight="800">Semaglutide</text>
+
+  <!-- Dose line -->
+  <text x="80" y="173" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.65)">2 MG LYOPHILIZED POWDER</text>
+
+  <!-- Divider -->
+  <line x1="52" y1="179" x2="108" y2="179" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
+  <!-- Purity + COA row -->
+  <text x="62" y="192" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.5)">PURITY</text>
+  <text x="62" y="204" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="11" fill="white" font-weight="800">≥99%</text>
+  <rect x="92" y="181" width="26" height="26" rx="4" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+  <text x="105" y="193" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" fill="rgba(255,255,255,0.55)">COA</text>
+  <text x="105" y="204" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="8" fill="white" font-weight="700">INCL.</text>
+
+  <!-- Research only -->
+  <text x="80" y="221" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5" fill="rgba(255,255,255,0.35)" letter-spacing="0.5">FOR RESEARCH ONLY</text>
+
+  <!-- Vial shoulders -->
+  <path d="M47,57 L35,72 L125,72 L113,57 Z" fill="url(#gmsem)"/>
+  <!-- Neck -->
+  <rect x="47" y="26" width="66" height="34" rx="5" fill="url(#gmsem)"/>
+
+  <!-- Silver crimp cap -->
+  <rect x="40" y="17" width="80" height="24" rx="4" fill="url(#scsem)"/>
+  <!-- Crimp grooves -->
+  <rect x="40" y="22" width="80" height="1.2" fill="rgba(0,0,0,0.14)"/>
+  <rect x="40" y="24" width="80" height="0.8" fill="rgba(255,255,255,0.28)"/>
+  <rect x="40" y="27" width="80" height="1.2" fill="rgba(0,0,0,0.12)"/>
+  <rect x="40" y="30" width="80" height="0.8" fill="rgba(255,255,255,0.22)"/>
+  <rect x="40" y="33" width="80" height="1.2" fill="rgba(0,0,0,0.1)"/>
+  <!-- Cap top -->
+  <ellipse cx="80" cy="17" rx="40" ry="10" fill="url(#ctsem)"/>
+  <!-- Cap specular -->
+  <ellipse cx="66" cy="13" rx="18" ry="5" fill="white" opacity="0.42"/>
+  <ellipse cx="60" cy="12" rx="8" ry="2.5" fill="white" opacity="0.55"/>
+
+  <!-- PRIMARY glass reflection (left edge bright streak — key to realism) -->
+  <rect x="36" y="60" width="11" height="184" rx="5" fill="url(#ghsem)"/>
+  <!-- Secondary inner reflection -->
+  <rect x="53" y="72" width="4" height="170" rx="2" fill="white" opacity="0.07"/>
+  <!-- Right edge darkening -->
+  <rect x="114" y="70" width="9" height="180" rx="4" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Neck/shoulder left highlight -->
+  <path d="M48,59 L36,73 L50,73 L53,59 Z" fill="white" opacity="0.32"/>
+  <rect x="48" y="27" width="9" height="32" rx="4" fill="white" opacity="0.28"/>
+
+  <!-- Glass bottom curve reflection -->
+  <ellipse cx="80" cy="242" rx="44" ry="5" fill="white" opacity="0.18"/>
 </svg>
             <div class="product-badge new">Hot</div>
           </div>
@@ -1080,76 +1215,121 @@
         <!-- Tirzepatide -->
         <div class="product-card">
           <div class="product-img">
-            <svg viewBox="0 0 140 225" xmlns="http://www.w3.org/2000/svg" style="width:auto;height:190px;display:block;margin:0 auto">
+            <svg viewBox="0 0 160 265" xmlns="http://www.w3.org/2000/svg" style="height:210px;width:auto;display:block;margin:0 auto">
   <defs>
-    <linearGradient id="vgtir" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b8bcc4"/>
-      <stop offset="12%" stop-color="#dde1e7"/>
-      <stop offset="45%" stop-color="#f0f2f5"/>
-      <stop offset="88%" stop-color="#d4d8e0"/>
-      <stop offset="100%" stop-color="#9fa5b0"/>
+    <linearGradient id="gmtir" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9098a4" stop-opacity="0.95"/>
+      <stop offset="7%" stop-color="#c8d0d8" stop-opacity="0.8"/>
+      <stop offset="16%" stop-color="#eaecef" stop-opacity="0.55"/>
+      <stop offset="28%" stop-color="#f6f7f8" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="68%" stop-color="#e4e7eb" stop-opacity="0.3"/>
+      <stop offset="84%" stop-color="#c8cdd5" stop-opacity="0.65"/>
+      <stop offset="94%" stop-color="#b0b8c4" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#8890a0" stop-opacity="1"/>
     </linearGradient>
-    <linearGradient id="nktir" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b0b5be"/>
-      <stop offset="30%" stop-color="#d8dce4"/>
-      <stop offset="70%" stop-color="#e8ecf2"/>
-      <stop offset="100%" stop-color="#a0a5ae"/>
+    <linearGradient id="ghtir" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="4%" stop-color="white" stop-opacity="0.75"/>
+      <stop offset="11%" stop-color="white" stop-opacity="0.35"/>
+      <stop offset="22%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="crtir" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8a9099"/>
-      <stop offset="15%" stop-color="#c8cdd6"/>
-      <stop offset="42%" stop-color="#eaecf0"/>
-      <stop offset="78%" stop-color="#c0c5ce"/>
-      <stop offset="100%" stop-color="#787e87"/>
+    <linearGradient id="sctir" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#606870"/>
+      <stop offset="8%" stop-color="#9ca4ac"/>
+      <stop offset="22%" stop-color="#cdd4db"/>
+      <stop offset="38%" stop-color="#eceff2"/>
+      <stop offset="52%" stop-color="#e4e8ec"/>
+      <stop offset="68%" stop-color="#c4cad2"/>
+      <stop offset="84%" stop-color="#96a0aa"/>
+      <stop offset="100%" stop-color="#606870"/>
     </linearGradient>
-    <linearGradient id="cbtir" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#1d4ed8"/>
-    </linearGradient>
+    <radialGradient id="cttir" cx="35%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#f0f3f6"/>
+      <stop offset="35%" stop-color="#d0d8e0"/>
+      <stop offset="100%" stop-color="#80909c"/>
+    </radialGradient>
+    <radialGradient id="fstir" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.18)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+    <filter id="blurtir">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
   </defs>
-  <!-- Shadow -->
-  <ellipse cx="70" cy="217" rx="32" ry="5" fill="rgba(0,0,0,0.1)"/>
-  <!-- Glass body -->
-  <rect x="30" y="68" width="80" height="142" rx="10" fill="url(#vgtir)"/>
-  <!-- Shoulders -->
-  <path d="M42,52 L30,70 L110,70 L98,52 Z" fill="url(#nktir)"/>
-  <!-- Neck -->
-  <rect x="42" y="28" width="56" height="28" rx="4" fill="url(#nktir)"/>
-  <!-- Crimp band -->
-  <rect x="34" y="20" width="72" height="22" rx="4" fill="url(#crtir)"/>
-  <rect x="34" y="27" width="72" height="1.5" fill="rgba(0,0,0,0.1)"/>
-  <rect x="34" y="34" width="72" height="1.5" fill="rgba(255,255,255,0.25)"/>
-  <!-- Blue stopper -->
-  <ellipse cx="70" cy="20" rx="33" ry="8" fill="#2563eb"/>
-  <rect x="37" y="8" width="66" height="18" rx="6" fill="url(#cbtir)"/>
-  <ellipse cx="70" cy="8" rx="33" ry="8" fill="#2563eb"/>
-  <ellipse cx="70" cy="7" rx="24" ry="5" fill="#60a5fa" opacity="0.55"/>
-  <!-- Label -->
-  <rect x="32" y="78" width="76" height="114" rx="2" fill="white" stroke="#dde1e7" stroke-width="0.75"/>
-  <!-- Label header -->
-  <rect x="32" y="78" width="76" height="13" rx="2" fill="#2563eb"/>
-  <text x="70" y="88.5" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" font-weight="700" fill="white" letter-spacing="0.6">LUMINOS PEPTIDES</text>
+
+  <!-- Floor shadow -->
+  <ellipse cx="80" cy="257" rx="42" ry="7" fill="url(#fstir)"/>
+
+  <!-- Glass body back (depth layer) -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="#dde0e5" opacity="0.45"/>
+
+  <!-- Glass body main -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="url(#gmtir)"/>
+
+  <!-- Navy label wrap - lower 65% of body -->
+  <rect x="36" y="118" width="88" height="122" rx="2" fill="#0b1933"/>
+  <!-- Label left shadow (cylinder wrap effect) -->
+  <rect x="36" y="118" width="9" height="122" fill="rgba(0,0,0,0.3)"/>
+  <!-- Label right shadow -->
+  <rect x="115" y="118" width="9" height="122" fill="rgba(0,0,0,0.22)"/>
+
+  <!-- Label: brand name -->
+  <text x="80" y="132" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" fill="rgba(255,255,255,0.5)" letter-spacing="1.5" font-weight="600">LUMINOS PEPTIDES</text>
+  <line x1="44" y1="136" x2="116" y2="136" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
   <!-- Product name -->
-  
-  <text x="70" y="108" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="9" font-weight="800" fill="#111827">Tirzepatide</text>
-  <!-- Divider 1 -->
-  <line x1="35" y1="116" x2="105" y2="116" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- Dose -->
-  <text x="70" y="127" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" font-weight="600" fill="#3d4452">CONTAINS: 5 MG</text>
-  <!-- Type -->
-  <text x="70" y="138" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">LYOPHILIZED POWDER</text>
-  <!-- Purity -->
-  <text x="70" y="149" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">PURITY &gt; 99%</text>
-  <!-- Divider 2 -->
-  <line x1="35" y1="156" x2="105" y2="156" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- RUO -->
-  <text x="70" y="167" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" font-weight="700" fill="#2563eb" letter-spacing="0.3">FOR RESEARCH ONLY</text>
-  <!-- Left glass highlight -->
-  <rect x="33" y="73" width="9" height="133" rx="4" fill="rgba(255,255,255,0.38)"/>
-  <!-- Right shadow -->
-  <rect x="101" y="73" width="7" height="133" rx="3" fill="rgba(0,0,0,0.07)"/>
-  <!-- Bottom curve -->
-  <ellipse cx="70" cy="204" rx="40" ry="6" fill="url(#vgtir)" opacity="0.5"/>
+  <text x="80" y="159" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="13" fill="white" font-weight="800">Tirzepatide</text>
+
+  <!-- Dose line -->
+  <text x="80" y="173" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.65)">5 MG LYOPHILIZED POWDER</text>
+
+  <!-- Divider -->
+  <line x1="52" y1="179" x2="108" y2="179" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
+  <!-- Purity + COA row -->
+  <text x="62" y="192" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.5)">PURITY</text>
+  <text x="62" y="204" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="11" fill="white" font-weight="800">≥99%</text>
+  <rect x="92" y="181" width="26" height="26" rx="4" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+  <text x="105" y="193" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" fill="rgba(255,255,255,0.55)">COA</text>
+  <text x="105" y="204" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="8" fill="white" font-weight="700">INCL.</text>
+
+  <!-- Research only -->
+  <text x="80" y="221" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5" fill="rgba(255,255,255,0.35)" letter-spacing="0.5">FOR RESEARCH ONLY</text>
+
+  <!-- Vial shoulders -->
+  <path d="M47,57 L35,72 L125,72 L113,57 Z" fill="url(#gmtir)"/>
+  <!-- Neck -->
+  <rect x="47" y="26" width="66" height="34" rx="5" fill="url(#gmtir)"/>
+
+  <!-- Silver crimp cap -->
+  <rect x="40" y="17" width="80" height="24" rx="4" fill="url(#sctir)"/>
+  <!-- Crimp grooves -->
+  <rect x="40" y="22" width="80" height="1.2" fill="rgba(0,0,0,0.14)"/>
+  <rect x="40" y="24" width="80" height="0.8" fill="rgba(255,255,255,0.28)"/>
+  <rect x="40" y="27" width="80" height="1.2" fill="rgba(0,0,0,0.12)"/>
+  <rect x="40" y="30" width="80" height="0.8" fill="rgba(255,255,255,0.22)"/>
+  <rect x="40" y="33" width="80" height="1.2" fill="rgba(0,0,0,0.1)"/>
+  <!-- Cap top -->
+  <ellipse cx="80" cy="17" rx="40" ry="10" fill="url(#cttir)"/>
+  <!-- Cap specular -->
+  <ellipse cx="66" cy="13" rx="18" ry="5" fill="white" opacity="0.42"/>
+  <ellipse cx="60" cy="12" rx="8" ry="2.5" fill="white" opacity="0.55"/>
+
+  <!-- PRIMARY glass reflection (left edge bright streak — key to realism) -->
+  <rect x="36" y="60" width="11" height="184" rx="5" fill="url(#ghtir)"/>
+  <!-- Secondary inner reflection -->
+  <rect x="53" y="72" width="4" height="170" rx="2" fill="white" opacity="0.07"/>
+  <!-- Right edge darkening -->
+  <rect x="114" y="70" width="9" height="180" rx="4" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Neck/shoulder left highlight -->
+  <path d="M48,59 L36,73 L50,73 L53,59 Z" fill="white" opacity="0.32"/>
+  <rect x="48" y="27" width="9" height="32" rx="4" fill="white" opacity="0.28"/>
+
+  <!-- Glass bottom curve reflection -->
+  <ellipse cx="80" cy="242" rx="44" ry="5" fill="white" opacity="0.18"/>
 </svg>
             <div class="product-badge new">Hot</div>
           </div>
@@ -1167,77 +1347,121 @@
         <!-- Ipamorelin + CJC-1295 -->
         <div class="product-card">
           <div class="product-img">
-            <svg viewBox="0 0 140 225" xmlns="http://www.w3.org/2000/svg" style="width:auto;height:190px;display:block;margin:0 auto">
+            <svg viewBox="0 0 160 265" xmlns="http://www.w3.org/2000/svg" style="height:210px;width:auto;display:block;margin:0 auto">
   <defs>
-    <linearGradient id="vgipa" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b8bcc4"/>
-      <stop offset="12%" stop-color="#dde1e7"/>
-      <stop offset="45%" stop-color="#f0f2f5"/>
-      <stop offset="88%" stop-color="#d4d8e0"/>
-      <stop offset="100%" stop-color="#9fa5b0"/>
+    <linearGradient id="gmipa" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9098a4" stop-opacity="0.95"/>
+      <stop offset="7%" stop-color="#c8d0d8" stop-opacity="0.8"/>
+      <stop offset="16%" stop-color="#eaecef" stop-opacity="0.55"/>
+      <stop offset="28%" stop-color="#f6f7f8" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="68%" stop-color="#e4e7eb" stop-opacity="0.3"/>
+      <stop offset="84%" stop-color="#c8cdd5" stop-opacity="0.65"/>
+      <stop offset="94%" stop-color="#b0b8c4" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#8890a0" stop-opacity="1"/>
     </linearGradient>
-    <linearGradient id="nkipa" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b0b5be"/>
-      <stop offset="30%" stop-color="#d8dce4"/>
-      <stop offset="70%" stop-color="#e8ecf2"/>
-      <stop offset="100%" stop-color="#a0a5ae"/>
+    <linearGradient id="ghipa" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="4%" stop-color="white" stop-opacity="0.75"/>
+      <stop offset="11%" stop-color="white" stop-opacity="0.35"/>
+      <stop offset="22%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="cripa" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8a9099"/>
-      <stop offset="15%" stop-color="#c8cdd6"/>
-      <stop offset="42%" stop-color="#eaecf0"/>
-      <stop offset="78%" stop-color="#c0c5ce"/>
-      <stop offset="100%" stop-color="#787e87"/>
+    <linearGradient id="scipa" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#606870"/>
+      <stop offset="8%" stop-color="#9ca4ac"/>
+      <stop offset="22%" stop-color="#cdd4db"/>
+      <stop offset="38%" stop-color="#eceff2"/>
+      <stop offset="52%" stop-color="#e4e8ec"/>
+      <stop offset="68%" stop-color="#c4cad2"/>
+      <stop offset="84%" stop-color="#96a0aa"/>
+      <stop offset="100%" stop-color="#606870"/>
     </linearGradient>
-    <linearGradient id="cbipa" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#1d4ed8"/>
-    </linearGradient>
+    <radialGradient id="ctipa" cx="35%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#f0f3f6"/>
+      <stop offset="35%" stop-color="#d0d8e0"/>
+      <stop offset="100%" stop-color="#80909c"/>
+    </radialGradient>
+    <radialGradient id="fsipa" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.18)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+    <filter id="bluripa">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
   </defs>
-  <!-- Shadow -->
-  <ellipse cx="70" cy="217" rx="32" ry="5" fill="rgba(0,0,0,0.1)"/>
-  <!-- Glass body -->
-  <rect x="30" y="68" width="80" height="142" rx="10" fill="url(#vgipa)"/>
-  <!-- Shoulders -->
-  <path d="M42,52 L30,70 L110,70 L98,52 Z" fill="url(#nkipa)"/>
-  <!-- Neck -->
-  <rect x="42" y="28" width="56" height="28" rx="4" fill="url(#nkipa)"/>
-  <!-- Crimp band -->
-  <rect x="34" y="20" width="72" height="22" rx="4" fill="url(#cripa)"/>
-  <rect x="34" y="27" width="72" height="1.5" fill="rgba(0,0,0,0.1)"/>
-  <rect x="34" y="34" width="72" height="1.5" fill="rgba(255,255,255,0.25)"/>
-  <!-- Blue stopper -->
-  <ellipse cx="70" cy="20" rx="33" ry="8" fill="#2563eb"/>
-  <rect x="37" y="8" width="66" height="18" rx="6" fill="url(#cbipa)"/>
-  <ellipse cx="70" cy="8" rx="33" ry="8" fill="#2563eb"/>
-  <ellipse cx="70" cy="7" rx="24" ry="5" fill="#60a5fa" opacity="0.55"/>
-  <!-- Label -->
-  <rect x="32" y="78" width="76" height="114" rx="2" fill="white" stroke="#dde1e7" stroke-width="0.75"/>
-  <!-- Label header -->
-  <rect x="32" y="78" width="76" height="13" rx="2" fill="#2563eb"/>
-  <text x="70" y="88.5" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" font-weight="700" fill="white" letter-spacing="0.6">LUMINOS PEPTIDES</text>
+
+  <!-- Floor shadow -->
+  <ellipse cx="80" cy="257" rx="42" ry="7" fill="url(#fsipa)"/>
+
+  <!-- Glass body back (depth layer) -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="#dde0e5" opacity="0.45"/>
+
+  <!-- Glass body main -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="url(#gmipa)"/>
+
+  <!-- Navy label wrap - lower 65% of body -->
+  <rect x="36" y="118" width="88" height="122" rx="2" fill="#0b1933"/>
+  <!-- Label left shadow (cylinder wrap effect) -->
+  <rect x="36" y="118" width="9" height="122" fill="rgba(0,0,0,0.3)"/>
+  <!-- Label right shadow -->
+  <rect x="115" y="118" width="9" height="122" fill="rgba(0,0,0,0.22)"/>
+
+  <!-- Label: brand name -->
+  <text x="80" y="132" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" fill="rgba(255,255,255,0.5)" letter-spacing="1.5" font-weight="600">LUMINOS PEPTIDES</text>
+  <line x1="44" y1="136" x2="116" y2="136" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
   <!-- Product name -->
-  
-  <text x="70" y="102" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="10" font-weight="800" fill="#111827">Ipamorelin</text>
-  <text x="70" y="114" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="9" font-weight="700" fill="#111827">/ CJC-1295</text>
-  <!-- Divider 1 -->
-  <line x1="35" y1="120" x2="105" y2="120" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- Dose -->
-  <text x="70" y="131" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" font-weight="600" fill="#3d4452">CONTAINS: 5/2 MG</text>
-  <!-- Type -->
-  <text x="70" y="142" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">LYOPHILIZED POWDER</text>
-  <!-- Purity -->
-  <text x="70" y="152" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">PURITY &gt; 99%</text>
-  <!-- Divider 2 -->
-  <line x1="35" y1="159" x2="105" y2="159" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- RUO -->
-  <text x="70" y="170" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" font-weight="700" fill="#2563eb" letter-spacing="0.3">FOR RESEARCH ONLY</text>
-  <!-- Left glass highlight -->
-  <rect x="33" y="73" width="9" height="133" rx="4" fill="rgba(255,255,255,0.38)"/>
-  <!-- Right shadow -->
-  <rect x="101" y="73" width="7" height="133" rx="3" fill="rgba(0,0,0,0.07)"/>
-  <!-- Bottom curve -->
-  <ellipse cx="70" cy="204" rx="40" ry="6" fill="url(#vgipa)" opacity="0.5"/>
+  <text x="80" y="153" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="12" fill="white" font-weight="800">Ipamorelin</text><text x="80" y="167" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="10" fill="white" font-weight="700">/ CJC-1295</text>
+
+  <!-- Dose line -->
+  <text x="80" y="178" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.65)">5/2 MG LYOPHILIZED POWDER</text>
+
+  <!-- Divider -->
+  <line x1="52" y1="184" x2="108" y2="184" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
+  <!-- Purity + COA row -->
+  <text x="62" y="197" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.5)">PURITY</text>
+  <text x="62" y="209" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="11" fill="white" font-weight="800">≥99%</text>
+  <rect x="92" y="186" width="26" height="26" rx="4" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+  <text x="105" y="198" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" fill="rgba(255,255,255,0.55)">COA</text>
+  <text x="105" y="209" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="8" fill="white" font-weight="700">INCL.</text>
+
+  <!-- Research only -->
+  <text x="80" y="226" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5" fill="rgba(255,255,255,0.35)" letter-spacing="0.5">FOR RESEARCH ONLY</text>
+
+  <!-- Vial shoulders -->
+  <path d="M47,57 L35,72 L125,72 L113,57 Z" fill="url(#gmipa)"/>
+  <!-- Neck -->
+  <rect x="47" y="26" width="66" height="34" rx="5" fill="url(#gmipa)"/>
+
+  <!-- Silver crimp cap -->
+  <rect x="40" y="17" width="80" height="24" rx="4" fill="url(#scipa)"/>
+  <!-- Crimp grooves -->
+  <rect x="40" y="22" width="80" height="1.2" fill="rgba(0,0,0,0.14)"/>
+  <rect x="40" y="24" width="80" height="0.8" fill="rgba(255,255,255,0.28)"/>
+  <rect x="40" y="27" width="80" height="1.2" fill="rgba(0,0,0,0.12)"/>
+  <rect x="40" y="30" width="80" height="0.8" fill="rgba(255,255,255,0.22)"/>
+  <rect x="40" y="33" width="80" height="1.2" fill="rgba(0,0,0,0.1)"/>
+  <!-- Cap top -->
+  <ellipse cx="80" cy="17" rx="40" ry="10" fill="url(#ctipa)"/>
+  <!-- Cap specular -->
+  <ellipse cx="66" cy="13" rx="18" ry="5" fill="white" opacity="0.42"/>
+  <ellipse cx="60" cy="12" rx="8" ry="2.5" fill="white" opacity="0.55"/>
+
+  <!-- PRIMARY glass reflection (left edge bright streak — key to realism) -->
+  <rect x="36" y="60" width="11" height="184" rx="5" fill="url(#ghipa)"/>
+  <!-- Secondary inner reflection -->
+  <rect x="53" y="72" width="4" height="170" rx="2" fill="white" opacity="0.07"/>
+  <!-- Right edge darkening -->
+  <rect x="114" y="70" width="9" height="180" rx="4" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Neck/shoulder left highlight -->
+  <path d="M48,59 L36,73 L50,73 L53,59 Z" fill="white" opacity="0.32"/>
+  <rect x="48" y="27" width="9" height="32" rx="4" fill="white" opacity="0.28"/>
+
+  <!-- Glass bottom curve reflection -->
+  <ellipse cx="80" cy="242" rx="44" ry="5" fill="white" opacity="0.18"/>
 </svg>
           </div>
           <div class="product-body">
@@ -1254,76 +1478,121 @@
         <!-- PT-141 -->
         <div class="product-card">
           <div class="product-img">
-            <svg viewBox="0 0 140 225" xmlns="http://www.w3.org/2000/svg" style="width:auto;height:190px;display:block;margin:0 auto">
+            <svg viewBox="0 0 160 265" xmlns="http://www.w3.org/2000/svg" style="height:210px;width:auto;display:block;margin:0 auto">
   <defs>
-    <linearGradient id="vgpt1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b8bcc4"/>
-      <stop offset="12%" stop-color="#dde1e7"/>
-      <stop offset="45%" stop-color="#f0f2f5"/>
-      <stop offset="88%" stop-color="#d4d8e0"/>
-      <stop offset="100%" stop-color="#9fa5b0"/>
+    <linearGradient id="gmpt1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9098a4" stop-opacity="0.95"/>
+      <stop offset="7%" stop-color="#c8d0d8" stop-opacity="0.8"/>
+      <stop offset="16%" stop-color="#eaecef" stop-opacity="0.55"/>
+      <stop offset="28%" stop-color="#f6f7f8" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="68%" stop-color="#e4e7eb" stop-opacity="0.3"/>
+      <stop offset="84%" stop-color="#c8cdd5" stop-opacity="0.65"/>
+      <stop offset="94%" stop-color="#b0b8c4" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#8890a0" stop-opacity="1"/>
     </linearGradient>
-    <linearGradient id="nkpt1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b0b5be"/>
-      <stop offset="30%" stop-color="#d8dce4"/>
-      <stop offset="70%" stop-color="#e8ecf2"/>
-      <stop offset="100%" stop-color="#a0a5ae"/>
+    <linearGradient id="ghpt1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="4%" stop-color="white" stop-opacity="0.75"/>
+      <stop offset="11%" stop-color="white" stop-opacity="0.35"/>
+      <stop offset="22%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="crpt1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8a9099"/>
-      <stop offset="15%" stop-color="#c8cdd6"/>
-      <stop offset="42%" stop-color="#eaecf0"/>
-      <stop offset="78%" stop-color="#c0c5ce"/>
-      <stop offset="100%" stop-color="#787e87"/>
+    <linearGradient id="scpt1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#606870"/>
+      <stop offset="8%" stop-color="#9ca4ac"/>
+      <stop offset="22%" stop-color="#cdd4db"/>
+      <stop offset="38%" stop-color="#eceff2"/>
+      <stop offset="52%" stop-color="#e4e8ec"/>
+      <stop offset="68%" stop-color="#c4cad2"/>
+      <stop offset="84%" stop-color="#96a0aa"/>
+      <stop offset="100%" stop-color="#606870"/>
     </linearGradient>
-    <linearGradient id="cbpt1" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#1d4ed8"/>
-    </linearGradient>
+    <radialGradient id="ctpt1" cx="35%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#f0f3f6"/>
+      <stop offset="35%" stop-color="#d0d8e0"/>
+      <stop offset="100%" stop-color="#80909c"/>
+    </radialGradient>
+    <radialGradient id="fspt1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.18)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+    <filter id="blurpt1">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
   </defs>
-  <!-- Shadow -->
-  <ellipse cx="70" cy="217" rx="32" ry="5" fill="rgba(0,0,0,0.1)"/>
-  <!-- Glass body -->
-  <rect x="30" y="68" width="80" height="142" rx="10" fill="url(#vgpt1)"/>
-  <!-- Shoulders -->
-  <path d="M42,52 L30,70 L110,70 L98,52 Z" fill="url(#nkpt1)"/>
-  <!-- Neck -->
-  <rect x="42" y="28" width="56" height="28" rx="4" fill="url(#nkpt1)"/>
-  <!-- Crimp band -->
-  <rect x="34" y="20" width="72" height="22" rx="4" fill="url(#crpt1)"/>
-  <rect x="34" y="27" width="72" height="1.5" fill="rgba(0,0,0,0.1)"/>
-  <rect x="34" y="34" width="72" height="1.5" fill="rgba(255,255,255,0.25)"/>
-  <!-- Blue stopper -->
-  <ellipse cx="70" cy="20" rx="33" ry="8" fill="#2563eb"/>
-  <rect x="37" y="8" width="66" height="18" rx="6" fill="url(#cbpt1)"/>
-  <ellipse cx="70" cy="8" rx="33" ry="8" fill="#2563eb"/>
-  <ellipse cx="70" cy="7" rx="24" ry="5" fill="#60a5fa" opacity="0.55"/>
-  <!-- Label -->
-  <rect x="32" y="78" width="76" height="114" rx="2" fill="white" stroke="#dde1e7" stroke-width="0.75"/>
-  <!-- Label header -->
-  <rect x="32" y="78" width="76" height="13" rx="2" fill="#2563eb"/>
-  <text x="70" y="88.5" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" font-weight="700" fill="white" letter-spacing="0.6">LUMINOS PEPTIDES</text>
+
+  <!-- Floor shadow -->
+  <ellipse cx="80" cy="257" rx="42" ry="7" fill="url(#fspt1)"/>
+
+  <!-- Glass body back (depth layer) -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="#dde0e5" opacity="0.45"/>
+
+  <!-- Glass body main -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="url(#gmpt1)"/>
+
+  <!-- Navy label wrap - lower 65% of body -->
+  <rect x="36" y="118" width="88" height="122" rx="2" fill="#0b1933"/>
+  <!-- Label left shadow (cylinder wrap effect) -->
+  <rect x="36" y="118" width="9" height="122" fill="rgba(0,0,0,0.3)"/>
+  <!-- Label right shadow -->
+  <rect x="115" y="118" width="9" height="122" fill="rgba(0,0,0,0.22)"/>
+
+  <!-- Label: brand name -->
+  <text x="80" y="132" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" fill="rgba(255,255,255,0.5)" letter-spacing="1.5" font-weight="600">LUMINOS PEPTIDES</text>
+  <line x1="44" y1="136" x2="116" y2="136" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
   <!-- Product name -->
-  
-  <text x="70" y="108" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="14" font-weight="800" fill="#111827">PT-141</text>
-  <!-- Divider 1 -->
-  <line x1="35" y1="116" x2="105" y2="116" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- Dose -->
-  <text x="70" y="127" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" font-weight="600" fill="#3d4452">CONTAINS: 10 MG</text>
-  <!-- Type -->
-  <text x="70" y="138" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">LYOPHILIZED POWDER</text>
-  <!-- Purity -->
-  <text x="70" y="149" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">PURITY &gt; 99%</text>
-  <!-- Divider 2 -->
-  <line x1="35" y1="156" x2="105" y2="156" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- RUO -->
-  <text x="70" y="167" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" font-weight="700" fill="#2563eb" letter-spacing="0.3">FOR RESEARCH ONLY</text>
-  <!-- Left glass highlight -->
-  <rect x="33" y="73" width="9" height="133" rx="4" fill="rgba(255,255,255,0.38)"/>
-  <!-- Right shadow -->
-  <rect x="101" y="73" width="7" height="133" rx="3" fill="rgba(0,0,0,0.07)"/>
-  <!-- Bottom curve -->
-  <ellipse cx="70" cy="204" rx="40" ry="6" fill="url(#vgpt1)" opacity="0.5"/>
+  <text x="80" y="161" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="17" fill="white" font-weight="800">PT-141</text>
+
+  <!-- Dose line -->
+  <text x="80" y="175" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.65)">10 MG LYOPHILIZED POWDER</text>
+
+  <!-- Divider -->
+  <line x1="52" y1="181" x2="108" y2="181" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
+  <!-- Purity + COA row -->
+  <text x="62" y="194" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.5)">PURITY</text>
+  <text x="62" y="206" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="11" fill="white" font-weight="800">≥99%</text>
+  <rect x="92" y="183" width="26" height="26" rx="4" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+  <text x="105" y="195" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" fill="rgba(255,255,255,0.55)">COA</text>
+  <text x="105" y="206" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="8" fill="white" font-weight="700">INCL.</text>
+
+  <!-- Research only -->
+  <text x="80" y="223" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5" fill="rgba(255,255,255,0.35)" letter-spacing="0.5">FOR RESEARCH ONLY</text>
+
+  <!-- Vial shoulders -->
+  <path d="M47,57 L35,72 L125,72 L113,57 Z" fill="url(#gmpt1)"/>
+  <!-- Neck -->
+  <rect x="47" y="26" width="66" height="34" rx="5" fill="url(#gmpt1)"/>
+
+  <!-- Silver crimp cap -->
+  <rect x="40" y="17" width="80" height="24" rx="4" fill="url(#scpt1)"/>
+  <!-- Crimp grooves -->
+  <rect x="40" y="22" width="80" height="1.2" fill="rgba(0,0,0,0.14)"/>
+  <rect x="40" y="24" width="80" height="0.8" fill="rgba(255,255,255,0.28)"/>
+  <rect x="40" y="27" width="80" height="1.2" fill="rgba(0,0,0,0.12)"/>
+  <rect x="40" y="30" width="80" height="0.8" fill="rgba(255,255,255,0.22)"/>
+  <rect x="40" y="33" width="80" height="1.2" fill="rgba(0,0,0,0.1)"/>
+  <!-- Cap top -->
+  <ellipse cx="80" cy="17" rx="40" ry="10" fill="url(#ctpt1)"/>
+  <!-- Cap specular -->
+  <ellipse cx="66" cy="13" rx="18" ry="5" fill="white" opacity="0.42"/>
+  <ellipse cx="60" cy="12" rx="8" ry="2.5" fill="white" opacity="0.55"/>
+
+  <!-- PRIMARY glass reflection (left edge bright streak — key to realism) -->
+  <rect x="36" y="60" width="11" height="184" rx="5" fill="url(#ghpt1)"/>
+  <!-- Secondary inner reflection -->
+  <rect x="53" y="72" width="4" height="170" rx="2" fill="white" opacity="0.07"/>
+  <!-- Right edge darkening -->
+  <rect x="114" y="70" width="9" height="180" rx="4" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Neck/shoulder left highlight -->
+  <path d="M48,59 L36,73 L50,73 L53,59 Z" fill="white" opacity="0.32"/>
+  <rect x="48" y="27" width="9" height="32" rx="4" fill="white" opacity="0.28"/>
+
+  <!-- Glass bottom curve reflection -->
+  <ellipse cx="80" cy="242" rx="44" ry="5" fill="white" opacity="0.18"/>
 </svg>
           </div>
           <div class="product-body">
@@ -1340,76 +1609,121 @@
         <!-- Semax -->
         <div class="product-card">
           <div class="product-img">
-            <svg viewBox="0 0 140 225" xmlns="http://www.w3.org/2000/svg" style="width:auto;height:190px;display:block;margin:0 auto">
+            <svg viewBox="0 0 160 265" xmlns="http://www.w3.org/2000/svg" style="height:210px;width:auto;display:block;margin:0 auto">
   <defs>
-    <linearGradient id="vgsmx" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b8bcc4"/>
-      <stop offset="12%" stop-color="#dde1e7"/>
-      <stop offset="45%" stop-color="#f0f2f5"/>
-      <stop offset="88%" stop-color="#d4d8e0"/>
-      <stop offset="100%" stop-color="#9fa5b0"/>
+    <linearGradient id="gmsmx" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9098a4" stop-opacity="0.95"/>
+      <stop offset="7%" stop-color="#c8d0d8" stop-opacity="0.8"/>
+      <stop offset="16%" stop-color="#eaecef" stop-opacity="0.55"/>
+      <stop offset="28%" stop-color="#f6f7f8" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="68%" stop-color="#e4e7eb" stop-opacity="0.3"/>
+      <stop offset="84%" stop-color="#c8cdd5" stop-opacity="0.65"/>
+      <stop offset="94%" stop-color="#b0b8c4" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#8890a0" stop-opacity="1"/>
     </linearGradient>
-    <linearGradient id="nksmx" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b0b5be"/>
-      <stop offset="30%" stop-color="#d8dce4"/>
-      <stop offset="70%" stop-color="#e8ecf2"/>
-      <stop offset="100%" stop-color="#a0a5ae"/>
+    <linearGradient id="ghsmx" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="4%" stop-color="white" stop-opacity="0.75"/>
+      <stop offset="11%" stop-color="white" stop-opacity="0.35"/>
+      <stop offset="22%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="crsmx" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8a9099"/>
-      <stop offset="15%" stop-color="#c8cdd6"/>
-      <stop offset="42%" stop-color="#eaecf0"/>
-      <stop offset="78%" stop-color="#c0c5ce"/>
-      <stop offset="100%" stop-color="#787e87"/>
+    <linearGradient id="scsmx" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#606870"/>
+      <stop offset="8%" stop-color="#9ca4ac"/>
+      <stop offset="22%" stop-color="#cdd4db"/>
+      <stop offset="38%" stop-color="#eceff2"/>
+      <stop offset="52%" stop-color="#e4e8ec"/>
+      <stop offset="68%" stop-color="#c4cad2"/>
+      <stop offset="84%" stop-color="#96a0aa"/>
+      <stop offset="100%" stop-color="#606870"/>
     </linearGradient>
-    <linearGradient id="cbsmx" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#1d4ed8"/>
-    </linearGradient>
+    <radialGradient id="ctsmx" cx="35%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#f0f3f6"/>
+      <stop offset="35%" stop-color="#d0d8e0"/>
+      <stop offset="100%" stop-color="#80909c"/>
+    </radialGradient>
+    <radialGradient id="fssmx" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.18)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+    <filter id="blursmx">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
   </defs>
-  <!-- Shadow -->
-  <ellipse cx="70" cy="217" rx="32" ry="5" fill="rgba(0,0,0,0.1)"/>
-  <!-- Glass body -->
-  <rect x="30" y="68" width="80" height="142" rx="10" fill="url(#vgsmx)"/>
-  <!-- Shoulders -->
-  <path d="M42,52 L30,70 L110,70 L98,52 Z" fill="url(#nksmx)"/>
-  <!-- Neck -->
-  <rect x="42" y="28" width="56" height="28" rx="4" fill="url(#nksmx)"/>
-  <!-- Crimp band -->
-  <rect x="34" y="20" width="72" height="22" rx="4" fill="url(#crsmx)"/>
-  <rect x="34" y="27" width="72" height="1.5" fill="rgba(0,0,0,0.1)"/>
-  <rect x="34" y="34" width="72" height="1.5" fill="rgba(255,255,255,0.25)"/>
-  <!-- Blue stopper -->
-  <ellipse cx="70" cy="20" rx="33" ry="8" fill="#2563eb"/>
-  <rect x="37" y="8" width="66" height="18" rx="6" fill="url(#cbsmx)"/>
-  <ellipse cx="70" cy="8" rx="33" ry="8" fill="#2563eb"/>
-  <ellipse cx="70" cy="7" rx="24" ry="5" fill="#60a5fa" opacity="0.55"/>
-  <!-- Label -->
-  <rect x="32" y="78" width="76" height="114" rx="2" fill="white" stroke="#dde1e7" stroke-width="0.75"/>
-  <!-- Label header -->
-  <rect x="32" y="78" width="76" height="13" rx="2" fill="#2563eb"/>
-  <text x="70" y="88.5" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" font-weight="700" fill="white" letter-spacing="0.6">LUMINOS PEPTIDES</text>
+
+  <!-- Floor shadow -->
+  <ellipse cx="80" cy="257" rx="42" ry="7" fill="url(#fssmx)"/>
+
+  <!-- Glass body back (depth layer) -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="#dde0e5" opacity="0.45"/>
+
+  <!-- Glass body main -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="url(#gmsmx)"/>
+
+  <!-- Navy label wrap - lower 65% of body -->
+  <rect x="36" y="118" width="88" height="122" rx="2" fill="#0b1933"/>
+  <!-- Label left shadow (cylinder wrap effect) -->
+  <rect x="36" y="118" width="9" height="122" fill="rgba(0,0,0,0.3)"/>
+  <!-- Label right shadow -->
+  <rect x="115" y="118" width="9" height="122" fill="rgba(0,0,0,0.22)"/>
+
+  <!-- Label: brand name -->
+  <text x="80" y="132" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" fill="rgba(255,255,255,0.5)" letter-spacing="1.5" font-weight="600">LUMINOS PEPTIDES</text>
+  <line x1="44" y1="136" x2="116" y2="136" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
   <!-- Product name -->
-  
-  <text x="70" y="108" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="14" font-weight="800" fill="#111827">Semax</text>
-  <!-- Divider 1 -->
-  <line x1="35" y1="116" x2="105" y2="116" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- Dose -->
-  <text x="70" y="127" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" font-weight="600" fill="#3d4452">CONTAINS: 30 MG</text>
-  <!-- Type -->
-  <text x="70" y="138" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">LYOPHILIZED POWDER</text>
-  <!-- Purity -->
-  <text x="70" y="149" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">PURITY &gt; 99%</text>
-  <!-- Divider 2 -->
-  <line x1="35" y1="156" x2="105" y2="156" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- RUO -->
-  <text x="70" y="167" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" font-weight="700" fill="#2563eb" letter-spacing="0.3">FOR RESEARCH ONLY</text>
-  <!-- Left glass highlight -->
-  <rect x="33" y="73" width="9" height="133" rx="4" fill="rgba(255,255,255,0.38)"/>
-  <!-- Right shadow -->
-  <rect x="101" y="73" width="7" height="133" rx="3" fill="rgba(0,0,0,0.07)"/>
-  <!-- Bottom curve -->
-  <ellipse cx="70" cy="204" rx="40" ry="6" fill="url(#vgsmx)" opacity="0.5"/>
+  <text x="80" y="161" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="17" fill="white" font-weight="800">Semax</text>
+
+  <!-- Dose line -->
+  <text x="80" y="175" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.65)">30 MG LYOPHILIZED POWDER</text>
+
+  <!-- Divider -->
+  <line x1="52" y1="181" x2="108" y2="181" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
+  <!-- Purity + COA row -->
+  <text x="62" y="194" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.5)">PURITY</text>
+  <text x="62" y="206" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="11" fill="white" font-weight="800">≥99%</text>
+  <rect x="92" y="183" width="26" height="26" rx="4" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+  <text x="105" y="195" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" fill="rgba(255,255,255,0.55)">COA</text>
+  <text x="105" y="206" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="8" fill="white" font-weight="700">INCL.</text>
+
+  <!-- Research only -->
+  <text x="80" y="223" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5" fill="rgba(255,255,255,0.35)" letter-spacing="0.5">FOR RESEARCH ONLY</text>
+
+  <!-- Vial shoulders -->
+  <path d="M47,57 L35,72 L125,72 L113,57 Z" fill="url(#gmsmx)"/>
+  <!-- Neck -->
+  <rect x="47" y="26" width="66" height="34" rx="5" fill="url(#gmsmx)"/>
+
+  <!-- Silver crimp cap -->
+  <rect x="40" y="17" width="80" height="24" rx="4" fill="url(#scsmx)"/>
+  <!-- Crimp grooves -->
+  <rect x="40" y="22" width="80" height="1.2" fill="rgba(0,0,0,0.14)"/>
+  <rect x="40" y="24" width="80" height="0.8" fill="rgba(255,255,255,0.28)"/>
+  <rect x="40" y="27" width="80" height="1.2" fill="rgba(0,0,0,0.12)"/>
+  <rect x="40" y="30" width="80" height="0.8" fill="rgba(255,255,255,0.22)"/>
+  <rect x="40" y="33" width="80" height="1.2" fill="rgba(0,0,0,0.1)"/>
+  <!-- Cap top -->
+  <ellipse cx="80" cy="17" rx="40" ry="10" fill="url(#ctsmx)"/>
+  <!-- Cap specular -->
+  <ellipse cx="66" cy="13" rx="18" ry="5" fill="white" opacity="0.42"/>
+  <ellipse cx="60" cy="12" rx="8" ry="2.5" fill="white" opacity="0.55"/>
+
+  <!-- PRIMARY glass reflection (left edge bright streak — key to realism) -->
+  <rect x="36" y="60" width="11" height="184" rx="5" fill="url(#ghsmx)"/>
+  <!-- Secondary inner reflection -->
+  <rect x="53" y="72" width="4" height="170" rx="2" fill="white" opacity="0.07"/>
+  <!-- Right edge darkening -->
+  <rect x="114" y="70" width="9" height="180" rx="4" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Neck/shoulder left highlight -->
+  <path d="M48,59 L36,73 L50,73 L53,59 Z" fill="white" opacity="0.32"/>
+  <rect x="48" y="27" width="9" height="32" rx="4" fill="white" opacity="0.28"/>
+
+  <!-- Glass bottom curve reflection -->
+  <ellipse cx="80" cy="242" rx="44" ry="5" fill="white" opacity="0.18"/>
 </svg>
             <div class="product-badge new">New</div>
           </div>
@@ -1427,76 +1741,121 @@
         <!-- Epithalon -->
         <div class="product-card">
           <div class="product-img">
-            <svg viewBox="0 0 140 225" xmlns="http://www.w3.org/2000/svg" style="width:auto;height:190px;display:block;margin:0 auto">
+            <svg viewBox="0 0 160 265" xmlns="http://www.w3.org/2000/svg" style="height:210px;width:auto;display:block;margin:0 auto">
   <defs>
-    <linearGradient id="vgepi" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b8bcc4"/>
-      <stop offset="12%" stop-color="#dde1e7"/>
-      <stop offset="45%" stop-color="#f0f2f5"/>
-      <stop offset="88%" stop-color="#d4d8e0"/>
-      <stop offset="100%" stop-color="#9fa5b0"/>
+    <linearGradient id="gmepi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9098a4" stop-opacity="0.95"/>
+      <stop offset="7%" stop-color="#c8d0d8" stop-opacity="0.8"/>
+      <stop offset="16%" stop-color="#eaecef" stop-opacity="0.55"/>
+      <stop offset="28%" stop-color="#f6f7f8" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="68%" stop-color="#e4e7eb" stop-opacity="0.3"/>
+      <stop offset="84%" stop-color="#c8cdd5" stop-opacity="0.65"/>
+      <stop offset="94%" stop-color="#b0b8c4" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#8890a0" stop-opacity="1"/>
     </linearGradient>
-    <linearGradient id="nkepi" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b0b5be"/>
-      <stop offset="30%" stop-color="#d8dce4"/>
-      <stop offset="70%" stop-color="#e8ecf2"/>
-      <stop offset="100%" stop-color="#a0a5ae"/>
+    <linearGradient id="ghepi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="4%" stop-color="white" stop-opacity="0.75"/>
+      <stop offset="11%" stop-color="white" stop-opacity="0.35"/>
+      <stop offset="22%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="crepi" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8a9099"/>
-      <stop offset="15%" stop-color="#c8cdd6"/>
-      <stop offset="42%" stop-color="#eaecf0"/>
-      <stop offset="78%" stop-color="#c0c5ce"/>
-      <stop offset="100%" stop-color="#787e87"/>
+    <linearGradient id="scepi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#606870"/>
+      <stop offset="8%" stop-color="#9ca4ac"/>
+      <stop offset="22%" stop-color="#cdd4db"/>
+      <stop offset="38%" stop-color="#eceff2"/>
+      <stop offset="52%" stop-color="#e4e8ec"/>
+      <stop offset="68%" stop-color="#c4cad2"/>
+      <stop offset="84%" stop-color="#96a0aa"/>
+      <stop offset="100%" stop-color="#606870"/>
     </linearGradient>
-    <linearGradient id="cbepi" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#1d4ed8"/>
-    </linearGradient>
+    <radialGradient id="ctepi" cx="35%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#f0f3f6"/>
+      <stop offset="35%" stop-color="#d0d8e0"/>
+      <stop offset="100%" stop-color="#80909c"/>
+    </radialGradient>
+    <radialGradient id="fsepi" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.18)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+    <filter id="blurepi">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
   </defs>
-  <!-- Shadow -->
-  <ellipse cx="70" cy="217" rx="32" ry="5" fill="rgba(0,0,0,0.1)"/>
-  <!-- Glass body -->
-  <rect x="30" y="68" width="80" height="142" rx="10" fill="url(#vgepi)"/>
-  <!-- Shoulders -->
-  <path d="M42,52 L30,70 L110,70 L98,52 Z" fill="url(#nkepi)"/>
-  <!-- Neck -->
-  <rect x="42" y="28" width="56" height="28" rx="4" fill="url(#nkepi)"/>
-  <!-- Crimp band -->
-  <rect x="34" y="20" width="72" height="22" rx="4" fill="url(#crepi)"/>
-  <rect x="34" y="27" width="72" height="1.5" fill="rgba(0,0,0,0.1)"/>
-  <rect x="34" y="34" width="72" height="1.5" fill="rgba(255,255,255,0.25)"/>
-  <!-- Blue stopper -->
-  <ellipse cx="70" cy="20" rx="33" ry="8" fill="#2563eb"/>
-  <rect x="37" y="8" width="66" height="18" rx="6" fill="url(#cbepi)"/>
-  <ellipse cx="70" cy="8" rx="33" ry="8" fill="#2563eb"/>
-  <ellipse cx="70" cy="7" rx="24" ry="5" fill="#60a5fa" opacity="0.55"/>
-  <!-- Label -->
-  <rect x="32" y="78" width="76" height="114" rx="2" fill="white" stroke="#dde1e7" stroke-width="0.75"/>
-  <!-- Label header -->
-  <rect x="32" y="78" width="76" height="13" rx="2" fill="#2563eb"/>
-  <text x="70" y="88.5" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" font-weight="700" fill="white" letter-spacing="0.6">LUMINOS PEPTIDES</text>
+
+  <!-- Floor shadow -->
+  <ellipse cx="80" cy="257" rx="42" ry="7" fill="url(#fsepi)"/>
+
+  <!-- Glass body back (depth layer) -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="#dde0e5" opacity="0.45"/>
+
+  <!-- Glass body main -->
+  <rect x="35" y="70" width="90" height="178" rx="12" fill="url(#gmepi)"/>
+
+  <!-- Navy label wrap - lower 65% of body -->
+  <rect x="36" y="118" width="88" height="122" rx="2" fill="#0b1933"/>
+  <!-- Label left shadow (cylinder wrap effect) -->
+  <rect x="36" y="118" width="9" height="122" fill="rgba(0,0,0,0.3)"/>
+  <!-- Label right shadow -->
+  <rect x="115" y="118" width="9" height="122" fill="rgba(0,0,0,0.22)"/>
+
+  <!-- Label: brand name -->
+  <text x="80" y="132" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" fill="rgba(255,255,255,0.5)" letter-spacing="1.5" font-weight="600">LUMINOS PEPTIDES</text>
+  <line x1="44" y1="136" x2="116" y2="136" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
   <!-- Product name -->
-  
-  <text x="70" y="108" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="11" font-weight="800" fill="#111827">Epithalon</text>
-  <!-- Divider 1 -->
-  <line x1="35" y1="116" x2="105" y2="116" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- Dose -->
-  <text x="70" y="127" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" font-weight="600" fill="#3d4452">CONTAINS: 10 MG</text>
-  <!-- Type -->
-  <text x="70" y="138" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">LYOPHILIZED POWDER</text>
-  <!-- Purity -->
-  <text x="70" y="149" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="#7a8499">PURITY &gt; 99%</text>
-  <!-- Divider 2 -->
-  <line x1="35" y1="156" x2="105" y2="156" stroke="#e4e7ec" stroke-width="0.75"/>
-  <!-- RUO -->
-  <text x="70" y="167" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5.5" font-weight="700" fill="#2563eb" letter-spacing="0.3">FOR RESEARCH ONLY</text>
-  <!-- Left glass highlight -->
-  <rect x="33" y="73" width="9" height="133" rx="4" fill="rgba(255,255,255,0.38)"/>
-  <!-- Right shadow -->
-  <rect x="101" y="73" width="7" height="133" rx="3" fill="rgba(0,0,0,0.07)"/>
-  <!-- Bottom curve -->
-  <ellipse cx="70" cy="204" rx="40" ry="6" fill="url(#vgepi)" opacity="0.5"/>
+  <text x="80" y="161" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="17" fill="white" font-weight="800">Epithalon</text>
+
+  <!-- Dose line -->
+  <text x="80" y="175" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.65)">10 MG LYOPHILIZED POWDER</text>
+
+  <!-- Divider -->
+  <line x1="52" y1="181" x2="108" y2="181" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
+  <!-- Purity + COA row -->
+  <text x="62" y="194" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.5)">PURITY</text>
+  <text x="62" y="206" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="11" fill="white" font-weight="800">≥99%</text>
+  <rect x="92" y="183" width="26" height="26" rx="4" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+  <text x="105" y="195" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="6" fill="rgba(255,255,255,0.55)">COA</text>
+  <text x="105" y="206" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="8" fill="white" font-weight="700">INCL.</text>
+
+  <!-- Research only -->
+  <text x="80" y="223" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="5" fill="rgba(255,255,255,0.35)" letter-spacing="0.5">FOR RESEARCH ONLY</text>
+
+  <!-- Vial shoulders -->
+  <path d="M47,57 L35,72 L125,72 L113,57 Z" fill="url(#gmepi)"/>
+  <!-- Neck -->
+  <rect x="47" y="26" width="66" height="34" rx="5" fill="url(#gmepi)"/>
+
+  <!-- Silver crimp cap -->
+  <rect x="40" y="17" width="80" height="24" rx="4" fill="url(#scepi)"/>
+  <!-- Crimp grooves -->
+  <rect x="40" y="22" width="80" height="1.2" fill="rgba(0,0,0,0.14)"/>
+  <rect x="40" y="24" width="80" height="0.8" fill="rgba(255,255,255,0.28)"/>
+  <rect x="40" y="27" width="80" height="1.2" fill="rgba(0,0,0,0.12)"/>
+  <rect x="40" y="30" width="80" height="0.8" fill="rgba(255,255,255,0.22)"/>
+  <rect x="40" y="33" width="80" height="1.2" fill="rgba(0,0,0,0.1)"/>
+  <!-- Cap top -->
+  <ellipse cx="80" cy="17" rx="40" ry="10" fill="url(#ctepi)"/>
+  <!-- Cap specular -->
+  <ellipse cx="66" cy="13" rx="18" ry="5" fill="white" opacity="0.42"/>
+  <ellipse cx="60" cy="12" rx="8" ry="2.5" fill="white" opacity="0.55"/>
+
+  <!-- PRIMARY glass reflection (left edge bright streak — key to realism) -->
+  <rect x="36" y="60" width="11" height="184" rx="5" fill="url(#ghepi)"/>
+  <!-- Secondary inner reflection -->
+  <rect x="53" y="72" width="4" height="170" rx="2" fill="white" opacity="0.07"/>
+  <!-- Right edge darkening -->
+  <rect x="114" y="70" width="9" height="180" rx="4" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Neck/shoulder left highlight -->
+  <path d="M48,59 L36,73 L50,73 L53,59 Z" fill="white" opacity="0.32"/>
+  <rect x="48" y="27" width="9" height="32" rx="4" fill="white" opacity="0.28"/>
+
+  <!-- Glass bottom curve reflection -->
+  <ellipse cx="80" cy="242" rx="44" ry="5" fill="white" opacity="0.18"/>
 </svg>
           </div>
           <div class="product-body">
